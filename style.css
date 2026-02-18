@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.add-habit {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #ff9800;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff5722;
+}
+
+.habit {
+  background: rgba(255,255,255,0.2);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.calendar-day {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  line-height: 40px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.completed {
+  background: #4caf50;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 90%;
+  }
+}
